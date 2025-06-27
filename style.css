@@ -1,0 +1,68 @@
+body {
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar li a:hover {
+  color: #ffd700;
+}
+
+/* ✅ ปรับตรงนี้ให้ข้อความอยู่ตรงกลางแนวนอน */
+.content {
+  padding: 40px 20px;
+  text-align: center;
+}
+.profile-img {
+  width: 200px;        /* ✅ ปรับขนาดความกว้างให้พอดี */
+  height: auto;        /* ✅ คงสัดส่วนภาพ */
+  margin-top: 10px;    /* ✅ เว้นระยะห่างจากหัวข้อด้านบน */
+  border-radius: 10px; /* ✅ เพิ่มความโค้งมนเล็กน้อย (ไม่บังคับ) */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* ✅ เพิ่มเงาบาง ๆ */
+}
+.skill-box {
+  background-color: #ffffff;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: left; /* หรือใช้ center ได้ถ้าชอบแบบนั้น */
+}
+
+.skill-box h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.skill-box p {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
